@@ -1,9 +1,12 @@
 import Home from "./components/Home";
+import Fade from "react-reveal/Fade";
 
 function App() {
   return (
     <>
-      <Home />
+      <Fade bottom>
+        <Home />
+      </Fade>
     </>
   );
 }
